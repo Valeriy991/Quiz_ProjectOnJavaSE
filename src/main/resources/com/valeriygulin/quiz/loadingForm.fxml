@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.valeriygulin.quiz.controllers.LoadingFormController">
+   <children>
+      <TextField fx:id="textFieldNumberOfQuestions" layoutX="226.0" layoutY="52.0" />
+      <Label layoutX="236.0" layoutY="25.0" prefHeight="26.0" prefWidth="138.0" text="Number of questions" />
+      <ComboBox fx:id="comboBoxSelectCategory" layoutX="75.0" layoutY="122.0" prefHeight="26.0" prefWidth="150.0" />
+      <Label layoutX="108.0" layoutY="94.0" text="Select Category" />
+      <Label layoutX="410.0" layoutY="94.0" text="Select Difficulty" />
+      <ComboBox fx:id="comboBoxSelectDifficulty" layoutX="376.0" layoutY="123.0" prefWidth="150.0" />
+      <Button layoutX="376.0" layoutY="232.0" mnemonicParsing="false" onAction="#ButtonSave" prefHeight="26.0" prefWidth="150.0" text="Save" />
+      <Button layoutX="75.0" layoutY="232.0" mnemonicParsing="false" onAction="#ButtonStart" prefHeight="26.0" prefWidth="150.0" text="Start" />
+   </children>
+</AnchorPane>
